@@ -77,4 +77,8 @@ public class frmClient extends JFrame {
             }
         }).start();
     }
+
+    public static void main(String[] args) {
+        java.awt.EventQueue.invokeLater(() -> new frmClient().setVisible(true));
+    }
 }

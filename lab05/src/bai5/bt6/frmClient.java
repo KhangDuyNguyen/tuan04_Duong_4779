@@ -67,4 +67,8 @@ public class frmClient extends JFrame {
         lstClientPath = new JList<>(dm);
         add(new JScrollPane(lstClientPath), BorderLayout.CENTER);
     }
+
+    public static void main(String[] args) {
+        java.awt.EventQueue.invokeLater(() -> new frmClient().setVisible(true));
+    }
 }

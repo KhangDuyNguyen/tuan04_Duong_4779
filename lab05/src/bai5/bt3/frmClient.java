@@ -72,4 +72,8 @@ public class frmClient extends JFrame {
     public void Hienthi(String str) {
         SwingUtilities.invokeLater(() -> txtchat.append(str));
     }
+
+    public static void main(String[] args) {
+        java.awt.EventQueue.invokeLater(() -> new frmClient().setVisible(true));
+    }
 }

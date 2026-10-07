@@ -67,4 +67,8 @@ public class frmClient extends JFrame {
         btnThoat.addActionListener(e -> dispose());
         add(btnThoat);
     }
+
+    public static void main(String[] args) {
+        java.awt.EventQueue.invokeLater(() -> new frmClient().setVisible(true));
+    }
 }
